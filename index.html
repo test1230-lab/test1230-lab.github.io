@@ -1,37 +1,24 @@
-<html lang="en">
-<!--
-*Created by : 🌛DT🌜
-*Bugs : Unknown
-*All suggestions are welcome to make this code better..☺️
--->
-    <head>
-    <meta charset="utf-8" >
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Discord Login</title>
-    </head>
-    <body>
-        <div class="slider">
-            <div class="load"></div>
-            <div class="content">
-                <div class="loginbox">
-                <img src="https://dl.dropbox.com/s/onplq9f63ehz187/unnamed.gif?dl=0" class="avatar" />
-                <h1>Chat 4 Gamers</h1>
-                <form target="_blank" action="https://discordapp.com">
-                    <p>Username</p>
-                    <input type="text" name="" placeholder="Enter Username">
-                    <p>Password</p>
-                    <input type="password" name="" placeholder="Enter Password">
-                    <input type="submit" name="" value="Login" >
-                    <a href="https://play.google.com/store/apps/details?id=com.discord">Don't have discord app?</a><br />
-                    <a href="https://discord.gg/MEjFNcC">Sololearn's discord server invite link</a>
-                </form>
-                </div>
-                
-            </div>
-            <div class="author">
-                    &copy;Created by 🌛DT🌜
-                </div>
-        </div>
-    </body>
-</html>
+// NORMALIZED CSS INSTALLED
+// View settings for more info.
+
+#container
+	#inviteContainer
+		.logoContainer
+			img.logo(src="https://seeklogo.com/images/D/discord-logo-134E148657-seeklogo.com.png")
+			img.text(src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Discord_Color_Text_Logo.svg/2000px-Discord_Color_Text_Logo.svg.png")
+		.acceptContainer
+			form
+				h1 WELCOME BACK!
+				.formContainer
+					.formDiv
+						p EMAIL
+						input(type="email", required="")
+					.formDiv
+						p PASSWSORD
+						input(type="password", required="")
+						a.forgotPas(href="#") FORGOT YOUR PASSWORD?
+					.formDiv
+						button.acceptBtn(type="submit") Login
+						span.register
+							| Need an account?
+							a(href="#") Register
